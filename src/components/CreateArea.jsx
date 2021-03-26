@@ -19,12 +19,7 @@ function CreateArea(props) {
   function handleSubmit(event){
     event.preventDefault();
     props.onAdd(input);
-    //updateInput();
-    clearText();
-  }
-  function clearText(){
-    const text =  {title: "", content: ""};
-    updateInput(text);
+    updateInput({title: "", content: ""});
   }
 
   return (
