@@ -12,7 +12,7 @@ function App() {
     updateNotes(prev => {
       return [...prev, input];
     });
-    console.log(input);
+    //console.log(input);
   }
 
   function handleDelete(id){
