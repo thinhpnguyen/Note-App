@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thinhpnguyen.github.io/Note-App/",
+  "homepage": "https://thinhpnguyen:<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>@github.io/Note-App/",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
@@ -20,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "clean": "gh-pages-clean"
   },
   "eslintConfig": {
     "extends": [
